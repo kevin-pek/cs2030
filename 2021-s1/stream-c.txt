@@ -1,0 +1,7 @@
+//**** Streams (c)
+//**** Write your answer below
+
+There is a good chance we will get the wrong and different answer everytime we run
+as a parallel stream is not guaranteed to be executed in any particular order.
+Therefore when we sum the integers which is a stateful operation, we will get a different
+result everytime we run.

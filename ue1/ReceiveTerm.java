@@ -1,0 +1,3 @@
+interface ReceiveTerm {
+    Host ack();
+}

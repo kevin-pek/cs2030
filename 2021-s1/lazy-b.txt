@@ -1,0 +1,4 @@
+//**** Lazy Evaluation (b)
+//**** Write your answer below
+
+3

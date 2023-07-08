@@ -1,0 +1,4 @@
+//**** Streams (a)
+//**** Write your answer below
+
+Sums the numbers 1 to 99

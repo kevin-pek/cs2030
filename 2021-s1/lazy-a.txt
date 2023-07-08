@@ -1,0 +1,5 @@
+//**** Lazy Evaluation (a)
+//**** Write your answer below
+
+2 since first element does not satisfy the predicate
+so it is discarded and the second element is returned

@@ -1,0 +1,11 @@
+//**** Functor (c)
+//**** Write your answer below
+
+Box obeys the functor laws, for example:
+Box returns the same value when given the identity function
+Box.of("Hello").map(x -> x).toString().equals("Hello") is true.
+
+However, Box does not obey the functor laws when given the composition of two functions
+Box.of("Hello").map(x -> x + " World").map(x -> x + "!").toString() gives "!olleH World"
+is not equal to
+Box.of("Hello").map(x -> x + " World" + "!").toString() which is "!dlroW Hello"

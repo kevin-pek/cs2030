@@ -1,0 +1,8 @@
+//**** Lambda
+//**** Write your answer below
+
+The function bar gives a compile error because of how variable capture works in lambda
+functions. Lambda functions capture variables by value, so the variable x is copied into the
+lambda function. The lambda function then increments the value of x, but the value of x in the
+main function is not changed. The lambda function then returns the value of x, which is 1. The
+main function then prints the value of x, which is still 0.

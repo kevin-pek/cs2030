@@ -1,0 +1,7 @@
+0.500 customer 1 arrives
+0.500 customer 1 served by server 1
+0.600 customer 2 arrives
+0.600 customer 2 served by server 2
+0.700 customer 3 arrives
+0.700 customer 3 leaves
+[2 1]
